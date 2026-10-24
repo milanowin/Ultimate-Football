@@ -1,0 +1,6 @@
+{
+  "name": "ULTIMATE FC 3D — Football & Career Simulator",
+  "description": "Complete 3D football experience with real-time match gameplay, Ultimate Team pack openings, Player Career mode, world-class clubs, and realistic ball physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

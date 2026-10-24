@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: none;
+    overflow: hidden;
+  }
+  
+  .font-display {
+    font-family: 'Chakra Petch', sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  .font-score {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom EA FC style pack reveal and gold card flares */
+.pack-glow-gold {
+  box-shadow: 0 0 45px rgba(234, 179, 8, 0.6), inset 0 0 30px rgba(234, 179, 8, 0.3);
+}
+
+.card-shine {
+  background: linear-gradient(135deg, rgba(255,255,255,0.25) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.15) 100%);
+}
+
+.broadcast-badge {
+  background: linear-gradient(90deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%);
+  border-left: 4px solid #22c55e;
+}
